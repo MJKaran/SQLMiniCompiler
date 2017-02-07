@@ -10,7 +10,7 @@ main() {
    	char buff[255];
 	int i=0;
    	fp = fopen("queries.sql", "r");
-while(i!=6)
+while(i!=6)//we need to write some proper expression here, I just gave some number!
 {
 	fscanf(fp, "%s", buff);//scans input only untill next space or newline
 	   printf("%d : %s\t",i, buff );
