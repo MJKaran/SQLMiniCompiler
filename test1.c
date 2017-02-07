@@ -53,12 +53,12 @@ fscanf(fp, "%s", buff);//scans input only untill next space or newline
 
 fscanf(fp, "%s", buff);//scans input only untill next space or newline
    printf("1 : %s\n", buff );
-*/
+
    fgets(buff, 255, (FILE*)fp);//reads input till the end of the line.
    printf("2: %s\n", buff );
    
    fgets(buff, 255, (FILE*)fp);
-   printf("3: %s\n", buff );
+   printf("3: %s\n", buff );*/
    fclose(fp);
 
 }
