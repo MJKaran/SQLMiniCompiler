@@ -1,0 +1,14 @@
+Character Classes
+Pattern	Meaning
+[[:alpha:]]	Match a letter character: [A-Za-z]
+[[:digit:]]	Match a digit character: [0-9]
+[[:xdigit:]]	Match a hexadecimal digit character: [0-9A-Fa-f]
+[[:alnum:]]	Match an alphanumeric character: [0-9A-Za-z]
+[[:lower:]]	Match a lower case character: [a-z]
+[[:upper:]]	Match an upper case character: [A-Z]
+[[:blank:]]	Match a blank (space or tab):[ \t]
+[[:space:]]	Match a whitespace character):[ \t\r\n\v\f]
+[[:punct:]]	Match a punctuation character: [-!"#$%&'()*+,./:;<=>?@[\]_`{
+[[:graph:]]	Match Graphical character: [\x21-\x7E]
+[[:print:]]	Match Printable character (graphical characters and spaces)
+[[:cntrl:]]	Match control character
